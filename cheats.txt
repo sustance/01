@@ -1,0 +1,10 @@
+
+    git status
+git add .
+
+git commit -am "comment"
+    gif log --oneline
+
+    gif log --oneline origin/master
+ 
+git push origin master          or(git push )
