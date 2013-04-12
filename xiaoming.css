@@ -5,14 +5,14 @@ body {
     background: #70c7ef; 
 }
 button { 
-    font-size:1.2em;
+    font-size:1.4em;
     background: orange; 
 }
 p { 
     font-size:1.2em;
 }
 pre { 
-    font-size:1em;
+    font-size:0.9em;
 }
 
 .center {
