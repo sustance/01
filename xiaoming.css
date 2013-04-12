@@ -1,10 +1,18 @@
 body { 
-    font-size:1.7em;
-    background: #bfd255; 
+	font-size:100.1%;
+    /*font-size:1.7em;
+    background: #bfd255;*/ 
+    background: #f33; 
 }
-
+button { 
+    font-size:1.2em;
+    background: yellow; 
+}
+p { 
+    font-size:1.2em;
+}
 pre { 
-    font-size:1.9em;
+    font-size:1.2em;
 }
 
 .center {
