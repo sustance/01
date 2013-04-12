@@ -1,6 +1,10 @@
 body { 
-    font-size:2em;
+    font-size:1.7em;
     background: #bfd255; 
+}
+
+pre { 
+    font-size:1.9em;
 }
 
 .center {
