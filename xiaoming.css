@@ -1,23 +1,23 @@
 body { 
+	border:0;
 	font-size:100.1%;
-    /*font-size:1.7em;
-    background: #bfd255;*/ 
-    background: #70c7ef; 
+    background: #DADADA; 
 }
+h1 h2 h3 h4{
+	margin: 0px 55px 0px 55px;
+	}
 button { 
-    font-size:1.4em;
-    background: orange; 
+    background: #5489b8; 
 }
-p { 
-    font-size:1.2em;
-}
-pre { 
-    font-size:0.9em;
-}
+p     { font-size:1.2em; }
+.zero9{ font-size:0.9em; }
+.one2 { font-size:1.2em; }
+.one4 { font-size:1.4em; }
+.one6 { font-size:1.6em; }
+.one8 { font-size:1.8em; }
 
 .center {
-	text-align:center;
-}
+	text-align:center;}
  
 
 
