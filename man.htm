@@ -23,24 +23,24 @@ width=device-width, height=device-height, target-densitydpi=device-dpi">
 <pre>Usage: omxplayer [OPTIONS] [FILE]
 -h --help             print this help
 -n --aidx  index      audio stream index:eg 1
--o --adev  device     audio out device hdmi/local
--i --info             dump stream format and exit
+-o --adev  device     audio out dev hdmi/local
+-i --info             dump stream format, exit
 -s --stats            pts and buffer stats
 -p --passthrough      audio passthrough
 -d --deinterlace      deinterlacing
 -w --hw               hw audio decoding
--3 --3d mode          switch tv 3d mode eg SBS/TB
--y --hdmiclocksync    refresh rate match video(d
--z --nohdmiclocksync  not refresh rate match vid'
+-3 --3d mode          switch tv  eg SBS/TB
+-y --hdmiclocksync    refresh rate match video
+-z --nohdmiclocksync  not refresh rate match 
 -t --sid index        show subtitle with index
--r --refresh          adjust fr'rate/res to video
--l --pos              start position (in seconds)
-   --boost-on-downmix boost volume when downmix'g
-   --subtitles path   external subs UTF8 srt fmt
+-r --refresh          adjust rate/res to video
+-l --pos              start position (in secs)
+   --boost-on-downmix boost volume w' downmix
+   --subtitles path   external subs srt fmt
    --font path        subtitle font
-   --font-size size   000's screen height(d 55)
-   --align left/center subtitle alignmen (d left)
-   --lines n          in the subtitle buffer(d 3)
+   --font-size size   000's screen height *55
+   --align left/center subtitle alignmen *left
+   --lines n          in the subtitle buffer*3
 </pre>
 <pre>
 z           Show Info
@@ -81,29 +81,28 @@ git [--version] [--exec-path[=<path>]]
     [--namespace=<name>]
     [-c name=value] [--help]
 
-add     Add file contents to the index
-bisect  Find by binary search the change that introduced a bug
+add     Add file contents to the index       *
+bisect  Find by change that introduced bug
 branch  List, create, or delete branches
-checkoutCheckout a branch or paths to the working tree
-clone   Clone a repository into a new directory
+checkout Checkout a branch or paths to tree
+clone   Clone a repository into a new dir
 commit  Record changes to the repository
-diff    Show changes between commits, commit and working tree, etc
-fetch   Download objects and refs from another repository
+diff    Show changes between commits, etc
+fetch   Download objects, refs from anoth repo
 grep    Print lines matching a pattern
-init    Create an empty git repository or reinit an exist'g one
+init    Create/reinit an empty git repository
 log     Show commit logs
-merge   Join two or more development histories together
-mv      Move or rename a file, a directory, or a symlink
-pull    Fetch from and merge with another repo' or a local branch
-push    Update remote refs along with associated objects
-rebase  Forward-port local commits to the updated upstream head
-reset   Reset current HEAD to the specified state
-rm      Remove files from the working tree and from the index
+merge   Join two or more devel histories
+mv      Move or rename file/directory/symlink
+pull    Fetch from and merge with repo/branch
+push    Update remote refs along w' assoc obj
+rebase  Forward-port local commits to upstream
+reset   Reset current HEAD to the spec'd state
+rm      Remove files from the tree/index
 show    Show various types of objects
 status  Show the working tree status
-tag     Create, list, delete or verify a tag object signed w GPG</pre>
-
-
+tag     Create,list,delete,verify a tag</pre>
+ 
 <div class="center"><button onClick="window.location='#pagetop'"><h3>&uArr;</h3></button></div> 
 </body>
 </html>
