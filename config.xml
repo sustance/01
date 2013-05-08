@@ -7,7 +7,7 @@
         version   = "1.0.0">
       <name>Lingyi</name>
     <description>
-        Lingyi rough notes etc for BB 5 and other bad browsers.
+        Lingyi rough notes etc for BB5
     </description>
     <author href="http://phonegap.com" email="mai.ming.dao@gmail.com">
         Mai Ming Dao
@@ -40,7 +40,7 @@
     <icon src="icon36.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="icon48.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="icon72.png"   gap:platform="android"    gap:density="hdpi" />
-    <icon src="icon96.png"   gap:platform="android"    gap:density="xhdpi" />
+    <icon src="icon72.png"   gap:platform="android"    gap:density="xhdpi" />
 <!--bb was 80px-->
     <!-- Define app splash screen for each platform. -->
 <!--<gap:splash src="res/screen/blackberry/screen-225.png"         gap:platform="blackberry" />-->
