@@ -1,12 +1,13 @@
-a { /* wrong, tv stations */
+a { /* wrong, tv stations 
     margin-top:4px;
-    margin-right: 12px;
+    margin-right: 12px;*/
 }
  
 u { /* for the highlighting of episoder */
     /*position: relative;
     padding-left:24px;*/
     font-weight:bold;
+    color:red;
 } 
 
 .center {
