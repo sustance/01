@@ -9,15 +9,11 @@ u { /* for the highlighting of episoder */
     font-weight:bold;
 } 
 
-/*to make stripy table...*/
-.odd {
-    background-color:rgba(255,255,255, 0.33);
-}
-th {
-    background-color:rgba(90, 90, 90, 0.33);
-} 
-td {
-    font-size:0.95em;
-}
+.center {
+	text-align:center; 
+	}
+.one6 { 
+	font-size:0.9em; font-style:bold;}
+
 
 
