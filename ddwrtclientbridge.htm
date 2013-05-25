@@ -1,0 +1,44 @@
+﻿
+Go FIRST to wireless, wireless security must use wpa2-aes for things to work reliably. or wep.
+Hit SAVE, (or APPLY if you wish to)
+
+
+Go to the wireless, basic settings page and change the wireless mode to Client Bridge.
+
+Your wireless network mode should be set to the same as the primary router.
+Wireless channel here............
+
+Set the wireless channel to match your primary router channel if there is a channel selection available.
+
+If you are using N only or Mixed with N, set your wireless channel width to match your primary
+
+Set the wireless network name to exactly the same as your primary router.
+
+Set Ack timing to 0 unless you have a long distance (>300 meter) link (Optional with broadcom routers)
+Default was 2000............
+
+
+Hit SAVE at the bottom. Then hit APPLY.
+Check to make sure all the configurations, including the mode, saved and the mode is still client bridge. If any changed, fix them, and save again.
+
+Goto Setup, basic setup and enter a router Local IP address of 192.168.1.5. Leave subnet mask at 255.255.255.0.
+Set the Gateway IP to your primary router. (Likely 192.168.1.1)
+
+Leave Local DNS blank
+
+Change your timezone and DST to match where you are
+
+Hit Apply.
+
+Set your browser to 192.168.1.5 and login to your router
+Goto Security, Firewall. Under Block Wan Requests, uncheck everything but "Filter Multicast" (Leave Filter multicast checked).
+
+Hit Save
+
+Disable SPI Firewall
+
+Hit Apply.
+
+Go to setup/advanced routing and change the operating mode from "gateway" to router. Hit Apply.
+
+Set your computer back to auto IP and auto DNS. 
